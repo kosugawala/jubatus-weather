@@ -6,7 +6,7 @@ from jubaweather.version import get_version
 setup(
     name             = 'jubaweather',
     version          = get_version(),
-    description      = 'regression analysis of the weather',
+    description      = 'classification of the weather',
     packages         = find_packages(),
     install_requires = [
         'pyyaml',

@@ -8,7 +8,7 @@
 準備
 ====
 
-- Jubauts 0.4.0 以上 + Python クライアントをインストールします
+- Jubauts 0.4.0 以上 + Python クライアントをインストールします  ([詳細はこちらから](http://jubat.us/ja/quickstart.html))
 
 
 
@@ -41,13 +41,13 @@ jubaclassifier を起動します
 
 dat/weather_train.csv は気象庁から取得した「2008年1月から2012年12月までの過去5年間の日別気象情報」です。日平均気温(℃)、日最高気温(℃)、日最低気温(℃)、日平均蒸気圧(hPa)、日平均相対湿度(%)をパラメータとして使用し、時期（9月上旬, 12月中旬 など）を学習させています。
 
-dat/weather_train.csv を学習し、 dat/weather.yml に記載した条件の日の天気がいつ頃のものか推測しましょう。
+dat/weather_train.csv を学習し、 dat/weather.yml に記載した条件の日の天気がいつ頃のものか分類しましょう。
 
 ```
   $ jubaweather -t dat/weather_train.csv -a dat/weather.yml
 ```
 
-dat/weather.yml を変更し、色々な条件でその日の天気の時期を推測出来ます。
+dat/weather.yml を変更し、色々な条件でその日の天気の時期を分類出来ます。
 
 ```
   $ edit dat/weather.yml

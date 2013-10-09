@@ -8,7 +8,7 @@
 準備
 ====
 
-- Jubauts 0.4.0 以上 + Python クライアントをインストールします  ([詳細はこちらから](http://jubat.us/ja/quickstart.html))
+- Jubauts 0.4.0 以上 + Python クライアントをインストールします  ([公式ページ](http://jubat.us/ja/quickstart.html))
 
 
 
@@ -33,7 +33,7 @@ jubaclassifier を起動します
  $ cd python
  $ python setup.py install
 ```
-インストールが終了すると python/build/ python/dist/ python/jubaweather.egg-info が作成されます 
+インストールが終了すると python/build/ python/dist/ python/jubaweather.egg-info が作成されます。 
 
 
 実行
